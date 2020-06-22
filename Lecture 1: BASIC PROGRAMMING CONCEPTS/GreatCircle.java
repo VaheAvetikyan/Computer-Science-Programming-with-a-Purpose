@@ -1,3 +1,8 @@
+/**
+ * The great-circle distance is the length of the shortest path between two points (x1,y1) and (x2,y2)
+ * on the surface of a sphere, where the path is constrained to be along the surface.
+ */
+
 public class GreatCircle {
     public static void main(String[] args) {
         double y1 = Math.toRadians(Double.parseDouble(args[1]));
